@@ -1,0 +1,28 @@
+CREATE DATABASE feedback;
+
+USE feedback;
+
+CREATE TABLE feedbacks (
+	resposta0 VARCHAR(10),
+    resposta1 VARCHAR(10),
+    justificativa VARCHAR(100),
+    `data` DATE
+) DEFAULT CHARSET = UTF8;
+
+!-----------------
+
+CREATE TABLE feedbackscomplete (
+	resposta0 VARCHAR(10),
+    resposta1 VARCHAR(10),
+    resposta2 VARCHAR(10),
+    resposta3 VARCHAR(10),
+    resposta4 VARCHAR(10),
+    resposta5 VARCHAR(10),
+    resposta6 VARCHAR(10),
+    resposta7 VARCHAR(10),
+    resposta8 VARCHAR(10),
+    resposta9 VARCHAR(10),
+    resposta10 VARCHAR(100),
+    justificativa VARCHAR(100),
+    `data` DATE
+) DEFAULT CHARSET = UTF8;

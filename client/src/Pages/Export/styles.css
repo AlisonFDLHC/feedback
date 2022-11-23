@@ -1,0 +1,22 @@
+.download_table_xls_button {
+
+    cursor: pointer;
+    border: 0.1rem solid #1c1c1c50;
+    border-radius: 10px;
+    box-shadow: 0.1rem 0.1rem 0.5rem #1c1c1c50;
+    font-weight: 700;
+    font-size: 1.2rem;
+    border-radius: 0;
+    background: #00afa6;
+    color: white;
+    padding: 0.3rem 1rem;
+    transition: 0.15s;
+
+   
+}
+
+.download_table_xls_button:hover {
+        
+    background: #00e2d7;
+
+}
