@@ -1,0 +1,39 @@
+.simple-keyboard.hg-theme-default.myTheme .hg-button.hg-color  {
+    background: rgb(0,230,218);
+    background: linear-gradient(0deg, rgba(0,230,218,1) 0%, rgba(30,204,195,1) 100%);
+    font-weight: bold;
+
+}
+
+.simple-keyboard.hg-theme-default.myTheme .hg-button  {
+    font-weight: bold;
+    color: white;
+}
+
+.simple-keyboard.hg-theme-default.myTheme .hg-button.hg-color:hover  {
+    background: #00b8ae;
+}
+
+.simple-keyboard.hg-theme-default.myTheme {
+    border: 5px solid #00C4BA;
+    background: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.simple-keyboard {
+    animation-name: abreTeclado;
+    animation-duration: 0.2s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes abreTeclado {
+    0% {
+        transform: scaleY(0);
+    }
+    100% {
+        transform: scaleY(1);
+    }
+}
