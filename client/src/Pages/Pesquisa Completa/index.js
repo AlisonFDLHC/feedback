@@ -130,7 +130,7 @@ const PesquisaCompleta = () => {
                     setJustificando(true)
                 }
         } else {
-            setError("Selecione uma opção")
+            setError("Preencha todos os campos")
         }
     }
 

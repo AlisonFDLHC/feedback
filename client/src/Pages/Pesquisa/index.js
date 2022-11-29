@@ -74,7 +74,7 @@ const Pesquisa = () => {
                 setJustificando(true)
             }
         } else {
-            setError("Selecione uma opção")
+            setError("Preencha todos os campos")
         }
        
     }
@@ -95,7 +95,7 @@ const Pesquisa = () => {
                 </C.Title>
                 <C.InputContainer>
                     <InputGroup options={turnos} label="Informe seu turno" id="pergunta0" name="pergunta0" setResposta={setResposta0}/>
-                    <InputGroup label="Qual a sua satisfação na refeição de hoje?" id="pergunta1" name="pergunta1" setResposta={setResposta1}/>
+                    <InputGroup label="Qual seu nivel de satisfação com a refeição de hoje?" id="pergunta1" name="pergunta1" setResposta={setResposta1}/>
                     {justificando &&
                         <>
                             <InputText label="Justifique por gentileza" value={justificativa} onChange={onChangeInput}/>
